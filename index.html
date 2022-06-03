@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>scratch技术交流中心</title>
+	</head>
+	<body>
+		<h1>欢迎来到scratch技术交流中心</h1>
+		<p>点击<a href="bcm.html"title="作品">查看我的作品</a></p>
+		<p>点击<a href="doc.html"title="文档">查看文档</a></p>
+		<video muted controls>
+		  <source src="video/互联网.mp4" type="video/mp4">
+		  <source src="video/互联网.webm" type="video/mp4">
+		  <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+		</video>
+		<audio id="the-background-music"autoplay="autoplay">
+		  <source src="audio/5c8a0553e18db46234.mp3" type="audio/mp3">
+		  <source src="audio/5c8a0553e18db46234.ogg" type="audio/ogg">
+		  <p>你的浏览器不支持 HTML5 音频，可点击<a href="viper.mp3">此链接</a>收听。</p>
+		</audio>
+		<script>
+		var mediaElem = document.getElementById("the-background-music");
+		mediaElem.load();
+		setInterval(function () {
+			mediaElem.load();
+		},130000)
+		</script>
+	</body>
+</html>
